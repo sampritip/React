@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+     font-family: "Inter";
+    font-style: "Inter";
+}
+
+.app--navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: -10px;
+    background-color: #F55A5A; 
+    padding: 8px;
+}
+.nav--logo{
+    color: white;
+    margin-right: 10px;
+    width: 30px;
+}
+.nav--text{
+    color: white;
+   
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.075em;
+    line-height: 25px;
+}
+.card--image{
+    height: 190px;
+    width: 160px;
+    border-radius: 7px;
+}
+.card{
+    display:flex;
+    justify-content: center;
+    margin: 50px;
+}
+.card--text{
+    margin-left: 30px;
+    padding: 15px;
+}
+.card--country{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-left: 4px;
+}
+.card--link{
+    color: gray;
+    font-size: 13px;
+    
+    margin-left: 10px;
+}
+.card--title{
+    margin-top: 10px;
+    
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    
+}
+.card--date{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+.card--desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #2B283A;
+}
+.card--pin{
+    height: 13px;
+}
+
